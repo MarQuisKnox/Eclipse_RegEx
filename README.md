@@ -3,3 +3,8 @@ RegEx for Eclipse
 
 ## Replace a comma followed by anything
 `\,+(.*)`
+
+```perl
+s = "Python syntax highlighting"
+print s
+```
