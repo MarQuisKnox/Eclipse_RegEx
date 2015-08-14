@@ -1,5 +1,5 @@
 # Eclipse_RegEx
 RegEx for Eclipse
 
-Replace a comma followed by anything
+## Replace a comma followed by anything
 \,+(.*)
