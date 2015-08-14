@@ -4,7 +4,7 @@ RegEx for Eclipse
 ## Replace a comma followed by anything
 `\,+(.*)`
 
-```markdown
+```regex
 s = "Python syntax highlighting"
 print s
 ```
