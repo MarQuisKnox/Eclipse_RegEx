@@ -8,5 +8,5 @@ RegEx for Eclipse
 
 ## Remove SQL comments
 ```perl
-/+(.*)/
+/+(.*)/;
 ```
