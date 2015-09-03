@@ -5,3 +5,8 @@ RegEx for Eclipse
 ```perl
 \,+(.*)
 ```
+
+## Remove SQL comments
+```perl
+/+(.*)/
+```
