@@ -10,3 +10,8 @@ RegEx for Eclipse
 ```perl
 /+(.*)/;
 ```
+
+## Remove Blank Lines
+```perl
+^\s*\n
+```
