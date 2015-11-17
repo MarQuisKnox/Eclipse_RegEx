@@ -1,17 +1,22 @@
 # Eclipse RegEx
 RegEx for Eclipse
 
-## Replace a comma followed by anything
+## Find a comma followed by anything
 ```perl
 \,+(.*)
 ```
 
-## Remove SQL comments
+## Find a comma followed by a line break
+```perl
+\,+(\n)
+```
+
+## Find SQL comments
 ```perl
 /+(.*)/;
 ```
 
-## Remove Blank Lines
+## Find Blank Lines
 ```perl
 ^\s*\n
 ```
