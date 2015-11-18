@@ -6,6 +6,11 @@ RegEx for Eclipse
 \,+(.*)
 ```
 
+## Find a comma followed by two quotation marks & a blank line
+```perl
+\,""+(\n)
+```
+
 ## Find a comma followed by a line break
 ```perl
 \,+(\n)
