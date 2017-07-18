@@ -1,6 +1,11 @@
 # Eclipse RegEx
 RegEx for Eclipse
 
+## Find SQL ID values
+```perl
+VALUES\([0-9]+,
+```
+
 ## Find a comma followed by anything
 ```perl
 \,+(.*)
